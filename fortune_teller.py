@@ -17,10 +17,6 @@ def tell_fortune(mood):
         print(f"Your fortune: A balanced mind brings clarity, {name}. Trust yourself.")
     elif mood == "stressed":
         print(f"Your fortune: Breathe, {name}. Storms pass and strength remains.")
-    elif mood == "excited":
-        print(f"Your fortune: The universe is aligning for you, {name}. Ride the wave of greatness!")
-    elif mood == "angry":
-        print(f"Your fortune: Anger can cloud judgment, {name}. Take a deep breath and let go.")
     else:
         print("Invalid mood. Please enter happy, sad, or neutral.")
 
